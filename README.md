@@ -1,4 +1,4 @@
-# UMADeveloperOnboardingEducationRollOut
+# UMADeveloperOnboardingEducationRollOut and DFX Integration
 The broad aims of this proposal are to improve developer onboarding of UMA products into already existing platforms.  Such as decentralized exchanges or DAOs.
 
 # Value Proposition
@@ -80,8 +80,31 @@ launch the front end
 7. Provide some examples of what to do once the application is launched.  Provide a series of additional challenges in the spirit of speed run https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c
 
 Additional workflow steps to below to mainnet:
-modify the 
+modify the deployment scripts in 00_deploy_your_contract.js to include the following:
 
+  const <contractName> = await ethers.getContract("<contractName>", deployer);
+  await <contractName>.transferOwnership("<deployer account");
+
+modify the default network from testnet to mainnet in hardhat.config.js 
+   
+   const defaultNetwork = "mainnet";
+
+modify the target network to mainnet in appjsx
+   
+   const targetNetwork = NETWORKS.mainnet
+   
+before re-runnign the commands above, be sure to generate a mnemonic 
+   
+   yarn generate 
+   
+check the account was generated
+   
+   yarn accounts
+   
+Send some eth to deploy!
+
+8. Create an example with integration into DFX.  This would require additional modifications to base Scaffold-Eth using Web3.js.  The contract ABIs would need to be imported so that that function calls can be made to them from the front end and director towards the current project.  More on this to come!!
+   
 
 # Rolling out UMA integration of KPIs into DAOs operations
 For example, providing a working example of how KPIs could be set through DAO consensus to student developer projects.  Furthermore, KPIs that could be generated to measure the performance of DAO participants and provide rewards for their engagement in DAOs.
