@@ -51,6 +51,38 @@ Not only would this provide considerable value to the DFX platform, it would fur
 
 UMA could also be futher used for the development of a KPI tied to the provision of liquidity, execution of liquidations, or TVL that would support the use of the DFX platform.  For example, previous attempts have been made to use KPIs to incentivize adoption of DFX by offering KPI options on TVL.  One issue with the initial appraoch was that these KPIs were set at an extremely high level of TVL, once it became doubtful about the ability to meet these thresholds interest in the community began to wane.  An improved approach would be to offer a sort of laddered KPI options offering increasing payoff amounts at successively high TVL thresholds.
 
+# Example of Workflow for Scaffold-Eth
+Simplest Examples - The simplest possible example would be to use https://solidity-by-example.org/defi/chainlink-price-oracle Scaffold-eth example using chainlink and carry that over to UMA.  This could be easily accomplished with the following workflow:
+
+1. clone scaffold-eth repo from: https://github.com/scaffold-eth/scaffold-eth
+2. modify the solidity file 'YourContract' to the .sol file in https://solidity-by-example.org/defi/chainlink-price-oracle.
+3. Change the address of the oracle in the AggregatorV3Interface to the addres of a known UMA oracle
+4. Provide int the project read me a clear description of the interface of the UMA oracle, in addition to reference to the source solidity documentation.
+5. Include some additional calls in the main solidity file of the project to explore the interface
+6. launch the contract and dynamically generated front end using the following commands
+
+install dependencies
+
+   yarn install
+   
+start the hardhad chain
+
+   yarn chain
+   
+deploy the contract
+
+   yarn deploy
+   
+launch the front end
+
+   yarn start
+   
+7. Provide some examples of what to do once the application is launched.  Provide a series of additional challenges in the spirit of speed run https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c
+
+Additional workflow steps to below to mainnet:
+modify the 
+
+
 # Rolling out UMA integration of KPIs into DAOs operations
 For example, providing a working example of how KPIs could be set through DAO consensus to student developer projects.  Furthermore, KPIs that could be generated to measure the performance of DAO participants and provide rewards for their engagement in DAOs.
 
