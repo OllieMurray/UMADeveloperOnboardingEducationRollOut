@@ -21,22 +21,19 @@ It needs to be clear what each  service does and how it can be used to expand an
 
 For example, what a KPI option is, or how it works for that, and how it can be incorporated into a DAO is hard to grasp without a concrete and tangible example.  It is possible to grasp what it is in essence from the existing documentation for an expert, however, seeing the true value and having examples that make the developer feel that implementation and execution is within reach a key requirement for developer onboarding.  It is especially important to stand out as the lowest hanging fruit in this space when there are so many other solutions and opportunities available.
 
+Furthermore, the documentation does not show the pathway for integration.  It assumes the developer already knows how they will want to use UMAs products rather providing a template or an environment for discovery.
 
-# The Paradigm for Product Adoption and Integration
+
+# The Paradigm for Product Adoption and Integration and Improvements to Product Communcation and Clarity
 This can be done through a variety of mechanisms.  One common, though less effective approach, is through the provision of developer docs that do not have fully worked examples, videos, or git hub repos.
 
-The current state of the opportunities for developers is seemingly one of endless opportunities.  In an environemnt of abundant opporunities, many players will be initially attracted to a product offering but when faced with even a modest level of challenge for onboarding will become disuaded from pursuing further.  This should not even be viewed as a 
+The current state of the opportunities for developers is seemingly one of endless opportunities.  In an environemnt of abundant opporunities, many players will be initially attracted to a product offering but when faced with even a modest level of challenge for onboarding will become disuaded from pursuing further.  This should not even be viewed as a weakness or deficiency.  It may even be even be close to game theoretically optimal behavior - the likelihood of finding an opporunity which can in the end provide similar value to the developer but with substantially less risk of lost time and effort is high.
 
+It is critical to address this by improving the value propostion.  The most successful products for onboarding new developers offer open source code repos of fully working examples with clear instructions on how to stand up projects.  The worked examples are often carefully curated to onboard developers whose interests align with the protocols ambitions for expansion.
+ 
+A suite of examples will be developed across the range of UMA products.  Covering not just calls to the contracts where UMAs products may be deployed for example, but also demonstrating novel use cases with the intention of inspiring innovative developer onboarding.
 
-providing publicly available git hub examples...
-current state of things... a command line approach where e.g. an oracle is put onto the blockchain ...
-this is useful for developers to software engineers who are familair with...
-or who want to implement their own price oracles for example
-
-however, there is currently no documentation or readily accessible/discoverable examples of integrating an already existing 
-
-# Improvements to product communication clarity..
-
+Some potential examples are further touched on below.
 
 # Rolling out an UMA integartion into an existing and DeFi application
 DFX offers an extremely strong platform for decentralized trading of fiat back crypto currencies across a range of underlying currencies e.g. CAD, USD, etc...
@@ -52,8 +49,10 @@ This worked example would go through the processes of:
 
 Not only would this provide considerable value to the DFX platform, it would further serve in disseminating understanding of UMAs products within the developer community.  This dissemination would at least be partially fueled by potential financial gains from contributing to a successful project such as DFX.
 
-UMA could also be futher used for the development of KPI tied to the provision of liquidity or execution of liquidations that support the operations of DFX.
+UMA could also be futher used for the development of a KPI tied to the provision of liquidity or execution of liquidations that support the operations of DFX.
 
+# Rolling out UMA integration of KPIs into DAOs operations
+For example, providing a working example of how KPIs could be set through DAO consensus to student developer projects.  Furthermore, KPIs that could be generated to measure the performance of DAO participants and provide rewards for their engagement in DAOs.
 
 # Onboarding of UMA services and the development of knew products
 Once it is better understood by developers and decentralized market participants how UMAs products work the sky really is the limit.  For exammple, it would be possible to develop market for options on KPIs that parallel the traditional finance and defi derivative markets.  Existing methodology for valuing options that uses metrics of volatility for example could be developed and this could spawn an entirely new area of research.
