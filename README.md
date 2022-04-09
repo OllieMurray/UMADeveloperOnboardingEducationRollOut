@@ -49,7 +49,7 @@ This worked example would go through the processes of:
 
 Not only would this provide considerable value to the DFX platform, it would further serve in disseminating understanding of UMAs products within the developer community.  This dissemination would at least be partially fueled by potential financial gains from contributing to a successful project such as DFX.
 
-UMA could also be futher used for the development of a KPI tied to the provision of liquidity or execution of liquidations that support the operations of DFX.
+UMA could also be futher used for the development of a KPI tied to the provision of liquidity, execution of liquidations, or TVL that would support the use of the DFX platform.  For example, previous attempts have been made to use KPIs to incentivize adoption of DFX by offering KPI options on TVL.  One issue with the initial appraoch was that these KPIs were set at an extremely high level of TVL, once it became doubtful about the ability to meet these thresholds interest in the community began to wane.  An improved approach would be to offer a sort of laddered KPI options offering increasing payoff amounts at successively high TVL thresholds.
 
 # Rolling out UMA integration of KPIs into DAOs operations
 For example, providing a working example of how KPIs could be set through DAO consensus to student developer projects.  Furthermore, KPIs that could be generated to measure the performance of DAO participants and provide rewards for their engagement in DAOs.
