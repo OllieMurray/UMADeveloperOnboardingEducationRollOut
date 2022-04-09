@@ -106,9 +106,13 @@ Send some eth to deploy!
 8. Create an example with integration into DFX.  This would require additional modifications to base Scaffold-Eth using Web3.js.  The contract ABIs would need to be imported so that that function calls can be made to them from the front end and director towards the current project.  
 
 A. Generate ABI from your contract's source code using something like the typechain library. For DFX, you would want the https://github.com/dfx-finance/protocol/blob/main/contracts/Curve.sol (attached is the ABI i use now)
+   
 B. User a library like BlockNative to connect to user's MetaMask from browser
+   
 C. Import Contract's ABI into your code
+   
 D. Connect contract to your BlockNative "signer": const dfxCurve = curve.connect(signer);
+   
 E. You can then call the methods from the contract's source code directly. In the case of DFX, there will be an originSwap() function
 
 # Rolling out UMA integration of KPIs into DAOs operations
